@@ -69,7 +69,7 @@ const handleAddButton = () => {
                         <td class="py-2 px-4 border-b text-left">{{ persona.rol }}</td>
                         <td class="py-2 px-4 border-b text-left">{{ persona.nombre }}</td>
                 </tr>
-                <!-- Agrega más filas según sea necesario -->
+                
               </tbody>
             </table>
           </div>

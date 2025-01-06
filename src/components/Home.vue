@@ -128,7 +128,7 @@ const handleDelete = async (subjectId) => {
 
                 </tr>
                 
-                <!-- Agrega más filas según sea necesario -->
+                
               </tbody>
             </table>
           </div>

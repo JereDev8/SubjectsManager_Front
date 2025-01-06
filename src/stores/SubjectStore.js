@@ -40,21 +40,21 @@ export const useSubjectStore = defineStore('subjectStore',{
         validateSubject() {
             const { datosGenerales, gestores, datosMateria } = this.subject;
 
-            // Validate datosGenerales
+            // Validar datosGenerales
             for (const key in datosGenerales) {
                 if (!datosGenerales[key]) {
                     return false;
                 }
             }
 
-            // Validate datosMateria
+            // Validar datosMateria
             for (const key in datosMateria) {
                 if (datosMateria[key] === '' || datosMateria[key] === null || datosMateria[key] === undefined) {
                     return false;
                 }
             }
 
-            // Validate gestores.personas
+            // Validar gestores.personas
             if (gestores.personas.length < 2) {
                 return false;
             }

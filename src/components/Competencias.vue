@@ -109,7 +109,7 @@
                             <td class="py-2 px-4 border-b text-left">{{ competencia.descripcion }}</td>
                             
                         </tr>
-                <!-- Agrega más filas según sea necesario -->
+                
               </tbody>
             </table>
           </div>
